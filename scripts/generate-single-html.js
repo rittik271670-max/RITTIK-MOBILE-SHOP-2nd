@@ -46,8 +46,8 @@ const singleHtml = `<!doctype html>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/RITTIK-MOBILE-Shop--2/assets/${jsFile}"></script>
-    <link rel="stylesheet" crossorigin href="/RITTIK-MOBILE-Shop--2/assets/${cssFile}">
+    <script type="module" crossorigin src="/RITTIK-MOBILE-SHOP-2nd/assets/${jsFile}"></script>
+<link rel="stylesheet" crossorigin href="/RITTIK-MOBILE-SHOP-2nd/assets/${cssFile}">
     <style>
 ${cssContent}
     </style>
