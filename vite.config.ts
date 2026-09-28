@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(({ command }) => {
   return {
-    base: command === 'build' ? '/RITTIK-MOBILE-Shop--2/' : '/',
+    base: command === 'build' ? '/RITTIK-MOBILE-SHOP-2nd/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
