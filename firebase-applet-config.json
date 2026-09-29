@@ -1,12 +1,18 @@
-{
-  "projectId": "august-insight-398sv",
-  "appId": "1:208763278241:web:a531b23eb1d497dd99b1e0",
-  "apiKey": "AIzaSyAdYQ6Q2ULlEtu7NGX1dTeK_6qDzg8mbdo",
-  "authDomain": "august-insight-398sv.firebaseapp.com",
-  "firestoreDatabaseId": "ai-studio-rittikmobileshop-00dbdc69-99d6-4a61-8e9a-7de0434fe2bf",
-  "storageBucket": "august-insight-398sv.firebasestorage.app",
-  "messagingSenderId": "208763278241",
-  "measurementId": "",
-  "oAuthClientId": "208763278241-l30436diaojh4ehtvtoiebovehhaa4qi.apps.googleusercontent.com",
-  "recaptchaSiteKey": ""
-}
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBIddmdEKtGl0OI97ky6Q3JJBs2dOzbnbA",
+  authDomain: "rittik-mobile-shop-web-1.firebaseapp.com",
+  databaseURL: "https://rittik-mobile-shop-web-1-default-rtdb.firebaseio.com",
+  projectId: "rittik-mobile-shop-web-1",
+  storageBucket: "rittik-mobile-shop-web-1.firebasestorage.app",
+  messagingSenderId: "171512039750",
+  appId: "1:171512039750:web:639dd1bffdb351bf06fd47"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
